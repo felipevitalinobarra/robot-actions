@@ -41,6 +41,6 @@ jobs:
 
     - name: Robot Reporter
       uses: joonvena/robotframework-reporter-action@v2.4
-        with:
-          gh_access_token: ${{ secrets.GITHUB_TOKEN }}
-          report_path: results
+      with:
+        gh_access_token: ${{ secrets.GITHUB_TOKEN }}
+        report_path: results
