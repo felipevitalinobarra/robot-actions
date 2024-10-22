@@ -11,7 +11,7 @@ ${IS_HEADLESS}      True
 
 *** Keywords ***
 Start Browser
-    New Browser    browser=${BROWSER}    headless=${IS_HEADLESS}
+    New Browser    ${BROWSER}    ${IS_HEADLESS}
     New Page       ${BASE_URL}
 
 Finish Browser
